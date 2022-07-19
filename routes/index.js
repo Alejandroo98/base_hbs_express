@@ -5,7 +5,9 @@ const path = require('path');
 app.set('views', path.join(__dirname, '../public'));
 
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('index_');
 });
+
+//Esto es una prueba
 
 module.exports = app;
